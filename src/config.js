@@ -1,11 +1,10 @@
 const layersOrder = [
     { name: 'Background' },
-    { name: 'Body' },
-    { name: 'Horn'},
-    { name: 'Eye'},
-    { name: 'Accessory',},
-    { name: 'Accessory 2' },
-    { name: 'Head' }
+    { name: 'Base' },
+    { name: 'Head' },
+    { name: 'Eye' },
+    { name: 'Accessory' },
+    { name: 'Body' }
 ];
   
 const format = {
