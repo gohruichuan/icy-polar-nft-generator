@@ -1,10 +1,14 @@
 const layersOrder = [
     { name: 'Background' },
     { name: 'Base' },
-    { name: 'Head' },
+    { name: 'Accessory 2' },
     { name: 'Eye' },
     { name: 'Accessory' },
-    { name: 'Body' }
+    { name: 'Head' },
+    { name: 'Body' },
+    // // { name: 'Spacesuit'},
+    { name: 'Extra' },
+    // { name: 'ThirdEye'}
 ];
   
 const format = {
@@ -18,6 +22,6 @@ const rarity = [
     { key: "_sr", val: "super rare" },
 ];
 
-const defaultEdition = 10;
+const defaultEdition = 3000;
 
 module.exports = { layersOrder, format, rarity, defaultEdition };
